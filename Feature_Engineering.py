@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Define your file path
-DATA_PATH = "training_feature_processed_data.csv"
+DATA_PATH = "training_data.csv"
 
 def prepare_environment(file_path):
     if os.path.exists(file_path):
