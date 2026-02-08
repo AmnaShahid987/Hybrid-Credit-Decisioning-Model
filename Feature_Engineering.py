@@ -18,7 +18,7 @@ prepare_environment(DATA_PATH)
 # 1. LOAD DATA
 try:
     # Loading the raw data
-    df = pd.read_csv('raw_training_data.csv', index_col=False)
+    df = pd.read_csv('training_data.csv', index_col=False)
     print("✓ Data loaded successfully. Shape:", df.shape)
 except FileNotFoundError:
     print("Error: CSV file not found. Check the filename in your repository.")
